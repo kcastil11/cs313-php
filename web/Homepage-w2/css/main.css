@@ -119,14 +119,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #e7461e;
+    border-color: #ebe6e5;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #e76e1e;
+    background-color: #6d7d83;
 }
 
 .btn-xl:hover,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #d55d17;
+    border-color: #e6e1df;
     color: #fff;
-    background-color: #f04a09;
+    background-color: #8c96a8;
 }
 
 .btn-xl:active,
@@ -171,7 +171,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: rgb(156, 17, 17);
 }
 
 .navbar-default .navbar-brand {
@@ -263,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.884);
     background-attachment: scroll;
     background-image: url(../images/majorca.png);
     background-position: center center;

@@ -1,0 +1,42 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+
+---https://sheltered-coast-72837.herokuapp.com/Homepage-w2/home.html
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+
+---https://github.com/kcastil11/cs313-php/tree/master/web/Homepage-w2
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+
+---The website is responsive, I implemented the php portion too.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+---I have not yet add pictures in the time line, still working on the group members as well.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+---The coolest thing it was working with bootstrap, there are great stuff you can use.
+
+6. What is the difference between an HTTP Get and Post? When should each be used?
+
+
+---The Get and Post are two different types of HTTP requests. 
+Get is used for viewing something, without changing it, while Post is used for changing something.
+
+
+7. Please select the category you feel best describes your assignment:
+1 - Some attempt was made
+2 - Developing, but significantly deficient
+3 - Slightly deficient, but still mostly adequate
+4 - Meets requirements
+5 - Shows creativity and excels above and beyond requirements
+
+---number 5
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+
+--I implemented all the requirements, I carefully selected the colors to have a nice contrast and well reportory of images.
