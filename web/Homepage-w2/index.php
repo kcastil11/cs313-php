@@ -63,7 +63,7 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in">CS313</div>
-            <div class="intro-heading">Assignment - Personal Homepage</div>
+            <div class="intro-heading">Homepage</div>
             <a href="#services" class="page-scroll btn btn-xl">Kenny Castillo</a>
         </div>
     </div>
@@ -88,7 +88,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 2</h4>
@@ -102,7 +102,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 3</h4>
@@ -116,7 +116,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 4</h4>
@@ -130,7 +130,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 5</h4>
@@ -144,7 +144,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 6</h4>
@@ -162,7 +162,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 7</h4>
@@ -178,7 +178,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 8</h4>
@@ -193,7 +193,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 9</h4>
@@ -209,7 +209,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 10</h4>
@@ -224,7 +224,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 11</h4>
@@ -240,7 +240,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 12</h4>
@@ -254,7 +254,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="../images/webfactory-ltd-NoOrDKxUfzo-unsplash.jpg" class="img-responsive" alt="">
+                    <img src="images/assignment.png" class="img-responsive" alt="assignment image">
                 </a>
                 <div class="portfolio-caption">
                     <h4>Week 13</h4>
@@ -275,7 +275,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">About Me!</h2>
-                <h3 class="section-subheading text-muted">Ajmal, I need help to learn how to tweak this part. I don't want this timeline crap. Haha.</h3>
+                <h3 class="section-subheading text-muted">"Live a life that is well balanced"</h3>
             </div>
         </div>
         <div class="row">
@@ -283,57 +283,57 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                            <img class="img-circle img-responsive" src="" alt="persona image">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4>Kenny Castillo</h4>
+                                <h4 class="subheading">California, 1987</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p class="text-muted">I was born in Los Angeles, California. My dad was from Mexico, and my Mom is from Guatemala. I have two siblings, one sister, one brother. I am the middle child.</p>
                             </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
+                            <img class="img-circle img-responsive" src="img/about/2.jpg" alt="persona image">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>2007-2009</h4>
+                                <h4 class="subheading">Honduras,Comayaguela Mission</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p class="text-muted">I had the privilege to serve a mission in Honduras. It was a fantastic experience and a marvelous opportunity to preach the restored gospel.  I still treasure the moments and the blessings of serving others.</p>
                             </div>
                         </div>
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                            <img class="img-circle img-responsive" src="img/about/3.jpg" alt="persona image">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>2012</h4>
+                                <h4 class="subheading">Families can be together forever</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p class="text-muted">I am blessed in my life with a wonderful woman Mayabel, my wife. We were married and sealed in Guatemala, City Temple. We are a happy family of three. My wife is expecting our second child. We are going to be four now. Awesome!</p>
                             </div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                            <img class="img-circle img-responsive" src="img/about/4" alt="persona image">
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <h4>2017</h4>
+                                <h4 class="subheading">Pathway Program</h4>
                             </div>
                             <div class="timeline-body">
-                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                <p class="text-muted">I decide to continue my academic education. When I heard about the Pathway Program, I realized it was my opportunity. I made the decision and the commitment to one day finish my career..</p>
                             </div>
                         </div>
                     </li>
@@ -353,7 +353,6 @@
 
 
 
-
 <!-- Team Section -->
 <section id="team" class="bg-light-gray">
     <div class="container">
@@ -366,7 +365,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="http://www.mycatspace.com/wp-content/uploads/2013/08/adopting-a-cat.jpg" class="img-responsive img-circle" alt="">
+                    <img src="images/student.png" class="img-responsive img-circle" alt="student image">
                     <h4>Kenny Castillo</h4>
                     <p class="text-muted">Student</p>
                     <ul class="list-inline social-buttons">
@@ -381,9 +380,9 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="http://www.mycatspace.com/wp-content/uploads/2013/08/adopting-a-cat.jpg" class="img-responsive img-circle" alt="">
-                    <h4>?</h4>
-                    <p class="text-muted">?</p>
+                    <img src="images/student.png" class="img-responsive img-circle" alt="student image">
+                    <h4>Student 2</h4>
+                    <p class="text-muted">Student</p>
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -396,9 +395,9 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="http://www.mycatspace.com/wp-content/uploads/2013/08/adopting-a-cat.jpg" class="img-responsive img-circle" alt="">
-                    <h4>?</h4>
-                    <p class="text-muted">?</p>
+                    <img src="images/student.png" class="img-responsive img-circle" alt="student image">
+                    <h4>Student 3</h4>
+                    <p class="text-muted">Student</p>
                     <ul class="list-inline social-buttons">
                         <li><a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -424,8 +423,16 @@
 
 <footer>
     <div class="container">
+
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/Homepage-w2/common/footer.php'; ?>
+            <p>Last Updated: <?php 
+            date_default_timezone_set('UTC');
+            echo date ("d F , Y", getlastmod()); 
+            ?></p>
+
+
         <div class="row">
-            <div class="col-md-4">
+            <!--<div class="col-md-4">
                 <span class="copyright">Copyright © Kenny Castillo 2020</span>
             </div>
             <div class="col-md-4">
@@ -438,6 +445,7 @@
                     </li>
                 </ul>
             </div>
+           
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
                     <li><a href="#">Privacy Policy</a>
@@ -446,7 +454,10 @@
                     </li>
                 </ul>
             </div>
-        </div>
+
+        </div>-->
+
+        
     </div>
 </footer>
 
@@ -478,13 +489,6 @@
     
 </body>
 </html>
-
-
-
-
-
-
-
 
 
 
