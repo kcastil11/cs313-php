@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  
+}
+
+body {
+    background: #d4d6e7;;
+    font-family: arial;
+    margin: 0 auto;
+    text-align: center;
+   width: 860px;
+}
+
+
+/* form format */
+.form-box>h1 {
+    height: 10%;
+    font-size: 4.5em;
+    background-color: #d4d6e7;
+    color: rgb(24, 21, 21);
+    padding-top: 3%;
+    text-transform: uppercase;
+    width: 860px;
+}
+
+#main-form {
+    padding-top: 2.5%;
+  width: 860px;
+}
+
+.select-products-heading {
+    font-size: 2.5em;
+    color: black;
+}
+
+
+/* product format   */
+
+.products-box {
+    width: 860px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: 0 auto;
+}
+
+.product {
+    width: 265px;
+}
+
+input[type="checkbox"] {
+    display: block;
+    margin: 15px auto;
+    width: 50px;
+    height: 50px;
+   
+    
+}
+
+input[type="checkbox"]:after {
+    width: 70%;
+}
+
+.product>label>img {
+    width: 100%;
+}
+
+
+/*  PROCUCT CHECK OUT  FORMAT  */
+.display-total {
+    padding-bottom: 3%;
+}
+
+.payment-details-box {
+    width: 860px;
+    margin: 0 auto;
+    border: 30px solid #d4d6e7;
+    margin-bottom: 5%;
+}
+
+.payment-details-heading {
+    font-size: 2em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    background-color: ##d4d6e7;
+    text-transform: uppercase;
+    color: rgb(10, 9, 9);
+    border-radius: 40%;
+}
+
+.payment-details-box>label {
+    font-size: 1.2em;
+    margin: 5% 0;
+    width: 90px;
+}
+
+.payment-details-box>.box>input[type="text"] {
+    font-size: 1.5em;
+    width: 25%;
+    border: none;
+    border: solid 2px black;
+}
+
+.box {
+    padding: 2% 0;
+}
+
+.invalid-field {
+    border: solid 1px rgb(142, 119, 645);
+}
+
+.cc-invalid-text {
+    position: relative;
+    top: 5px;
+}
+
+.phone-invalid-text {
+    position: relative;
+    right: 250px;
+}
+
+.payment-details-box>input[type="radio"] {
+    margin-right: 4%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.credit-card-box>label {
+    font-size: 1.5em;
+}
+
+.credit-card-box>input {
+    font-size: 1.1em;
+    width: 20%;
+    border: none;
+    border: solid 2px black;
+}
+
+.form-buttons {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.form-buttons>input {
+    font-size: 1.2em;
+    width: 15%;
+    height: 3em;
+    border: none;
+    background-color: rgb(243, 237, 237);
+    color: red;
+}
