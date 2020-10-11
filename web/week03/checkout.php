@@ -9,19 +9,19 @@ $totalAmt = 0;
 foreach ($_SESSION["products"] as $product) {
   $_SESSION["array_product"];
   switch ($product) {
-    case 'soil':
+    case 'bike-1':
       $_SESSION["array_product"]['DR.Earth'] = 9.99;
-      unset($_SESSION["soil"][0]);
+      unset($_SESSION["bike-1"][0]);
       $totalAmt += 9.99;
       break;
-    case 'soil-2':
+    case 'bike-2':
       $_SESSION["array_product"]['DR.Earth'] = 8.99;
-      unset($_SESSION["soil-2"][1]);
+      unset($_SESSION["bike-2"][1]);
       $totalAmt += 8.99;
       break;
-    case 'soil-3':
+    case 'bike-3':
       $_SESSION["array_product"]['DR.Earth'] = 9.99;
-      unset($_SESSION["soil-3"][2]);
+      unset($_SESSION["bike-3"][2]);
       $totalAmt += 9.99;
       break;
 

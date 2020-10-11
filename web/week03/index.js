@@ -5,13 +5,13 @@ function displayTotal() {
     for (let i = 0; i < 5; i++) {
         if (document.forms["main-form"][i].checked) {
             switch (document.forms["main-form"][i].value) {
-                case "bike-1":
+                case "bike":
                     total += 999.99;
                     break;
-                case "bike-2":
+                case "bike":
                     total += 850;
                     break;
-                case "bike-3":
+                case "bike":
                     total += 2000;
                     break;
                 

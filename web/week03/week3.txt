@@ -1,0 +1,43 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your web application:
+
+https://sheltered-coast-72837.herokuapp.com/week03/index.php
+
+2. Copy and paste the URL for your source code repository (e.g., GitHub):
+
+https://github.com/kcastil11/cs313-php/tree/master/web/week03
+
+3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
+
+Adding the php code to this page wasnt easy for me at all. I implemented the steps I learned with the previous course last semester, I am still workiking on it.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+I am still working with the design and trying to make it more attractive to the customers.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+I really liked the way the the backend displayed the price and at the moment of the final transaction displaying the name, address and phone number.
+
+6. List one strength and one limitation of using cookies.
+
+1. It makes the browser to navigate faster and easier.
+
+2. The security level could get compromised.
+
+
+7. Please select the category you feel best describes your assignment:
+1 - Some attempt was made
+2 - Developing, but significantly deficient
+3 - Slightly deficient, but still mostly adequate
+4 - Meets requirements
+5 - Shows creativity and excels above and beyond requirements
+
+
+3 and 4
+
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+
+I am still working with the code, I am not an expert and I need to learn more. Also, I need to make it more attractive.
