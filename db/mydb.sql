@@ -53,7 +53,7 @@ VALUES (103, 'Mcfly', 'Marty', '200 morgan st', 'Hill Valley');
 
     Edition_year varchar(255)
 
-        PRIMARY KEY (ProductID)
+        PRIMARY KEY (ProductID),
 
      FOREIGN KEY (ProductID) REFERENCES Persons(ProductID)
 
