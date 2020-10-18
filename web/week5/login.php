@@ -22,9 +22,6 @@
     </form>
     <ul>
       <li>
-        <a href="week5.php">Search</a>
-      </li>
-      <li>
         <a href="">About</a>
         <ul class="mega-dropdown">
           <li class="row">
@@ -74,29 +71,31 @@
   </nav>
 </div>
 <!-- nav end-->
-	
+<div id="form-main">  
+  
+<div id="form-div">
+
+
 	<div id="search">
 		<h2><Table>The Cool Comics</Table> Product</h2>
 		<p></p>
 		<form method="post">
-			<label for="">Product Name:</label><br>
+			<label for="">Comic Name:</label><br>
             <input type="text" name="soil" id="soil"><br>
             
-			<label for="city">Product type:</label><br>
+			<label for="city">Comic type:</label><br>
             <input type="text" name="Product-type" id="P-type"><br>
             
-			<label for="state">Product Description:</label><br>
+			<label for="state">Comic Description:</label><br>
             <input type="text" name="description" id="Desc"><br>
             
-
-			<label for="country">Zone</label><br>
-            <input type="text" name="zone" id="Zone"><br>
         
 			<input type="submit" name="submit" value="Submit"><br>
 			
 		</form>
-	</div>
-
+  </div>
+</div>
+</div>
 
 </body>
 </html>

@@ -1,15 +1,10 @@
 <?php
+
+
+
 ?>
 
 
-
-  
-
-
-
-
-</body>
-</html>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +19,7 @@
 <!--nav -->
 <div id="header">
   <div class="logo">
-    <a href="index.php">The Cool Comics</a>
+    <a href="#">The Cool Comics</a>
   </div>  
   <nav>
     <form class="search" action="search.php"> 
@@ -32,7 +27,7 @@
     </form>
     <ul>
       <li>
-        <a href="week5.php">Search</a>
+        <a href="index.php">Home</a>
       </li>
       <li>
         <a href="">About</a>
@@ -86,19 +81,46 @@
 <!-- nav end-->
 
 
-	<div>
-		<h2>Welcome to The Cool Comics</h2>
-		<p>Select the "Search" to look for your favorite comic</p>
-		<button class="button button1">Search</button>
 
-		<!-- Search form -->
-<input class="form-control" type="text" placeholder="Search" aria-label="Search">
-		<p>Select the "LOG" New seach </p>
-		<button class="button button2">NEW SEARCH</button>
-		<!-- Search form -->
-<input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        
-	</div>
+
+<!--- form 2 -->
+
+<div id="form-main">
+
+  <div id="form-div">
+    <form class="form" id="form1">
+    <h2>Comics Search</h2>
+
+      <p class="name">
+       <h3>Super Heroes</h3>   
+      <button class="button button1" id="button-blue">Search</button>
+      <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="" id="name" />
+      </p>
+     
+
+
+      <p class="name">
+       <h3>Anime</h3>
+      <button class="button button1" id="button-blue">Search</button>
+        <input name="email" type="text" class="validate[required,custom[onlyLetter],length[0,100]]  feedback-input" id="email" placeholder="" />
+      </p>
+      
+
+
+      <p class="name">
+          <h3>Cartoons</h3>
+      <button class="button button1" id="button-blue" >Search</button>
+      <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="" id="name" />
+        <!--<textarea name="text" class="validate[required,custom[onlyLetter],length[0,100]]  feedback-input" id="comment" placeholder="Comment" ></textarea>-->
+      </p>
+     
+      
+      <div class="submit">
+        <input type="submit" value="Cool Comics" id="button-green"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
 
 
 
