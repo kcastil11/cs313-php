@@ -62,10 +62,10 @@
           </ul>        
       </li>
       <li>
-        <a href="">Portfolio</a>
+        <a href="">Comics</a>
       </li>
       <li>
-        <a href="">Team</a>
+        <a href="">Comics</a>
       </li>
     </ul>
   </nav>
@@ -80,17 +80,15 @@
 		<h2><Table>The Cool Comics</Table> Product</h2>
 		<p></p>
 		<form method="post">
-			<label for="">Comic Name:</label><br>
+			<label for="">User Name:</label><br>
             <input type="text" name="soil" id="soil"><br>
             
-			<label for="city">Comic type:</label><br>
+			<label for="city">User Nick:</label><br>
             <input type="text" name="Product-type" id="P-type"><br>
             
-			<label for="state">Comic Description:</label><br>
+			<label for="state">Password</label><br>
             <input type="text" name="description" id="Desc"><br>
-            
-        
-			<input type="submit" name="submit" value="Submit"><br>
+            	<input type="submit" name="submit" value="Submit"><br>
 			
 		</form>
   </div>
