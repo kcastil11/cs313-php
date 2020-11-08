@@ -1,0 +1,200 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Retina:cs313-php user$ heroku addons:create heroku-postgresql:hobby-dev
+Creating heroku-postgresql:hobby-dev on ⬢ sheltered-coast-72837... free
+Database has been created and is available
+ ! This database is empty. If upgrading, you can transfer
+ ! data from another database with pg:copy
+Created postgresql-round-75680 as DATABASE_URL
+Use heroku addons:docs heroku-postgresql to view documentation
+Retina:cs313-php user$ heroku config -s
+DATABASE_URL='postgres://wvwxbodrjgfpuy:9c5224b125b1a7f6c54b90973741f876c7d9914669bd8701dcfb995f884e8f97@ec2-54-146-4-66.compute-1.amazonaws.com:5432/d6ikunfuubqbcu'
+Retina:cs313-php user$ heroku pg:info
+=== DATABASE_URL
+Plan:                  Hobby-dev
+Status:                Available
+Connections:           0/20
+PG Version:            12.4
+Created:               2020-10-10 06:43 UTC
+Data Size:             7.9 MB
+Tables:                0
+Rows:                  0/10000 (In compliance)
+Fork/Follow:           Unsupported
+Rollback:              Unsupported
+Continuous Protection: Off
+Add-on:                postgresql-round-75680
+
+Retina:cs313-php user$ heroku pg:psql
+--> Connecting to postgresql-round-75680
+ ▸    The local psql command could not be located. For help installing psql, see
+ ▸    https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
+Retina:cs313-php user$ \i db/myTest.sql
+bash: i: command not found
+Retina:cs313-php user$ heroku pg:psql
+--> Connecting to postgresql-round-75680
+ ▸    The local psql command could not be located. For help installing psql, see
+ ▸    https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
+Retina:cs313-php user$ export PATH=/Library/PostgreSQL/13/bin:$PATH
+Retina:cs313-php user$ heroku pg:psql
+--> Connecting to postgresql-round-75680
+ ▸    The local psql command could not be located. For help installing psql, see
+ ▸    https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
+Retina:cs313-php user$ export PATH=/cs313-php/PostgreSQL/13/bin:$PATH
+Retina:cs313-php user$ heroku pg:psql
+--> Connecting to postgresql-round-75680
+ ▸    The local psql command could not be located. For help installing psql, see
+ ▸    https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
+Retina:cs313-php user$ heroku pg:psql
+--> Connecting to postgresql-round-75680
+psql (13.0, server 12.4 (Ubuntu 12.4-1.pgdg16.04+1))
+SSL connection (protocol: TLSv1.2, cipher: ECDHE-RSA-AES256-GCM-SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+sheltered-coast-72837::DATABASE=> \i db/myDb.sql
+psql:db/myDb.sql:1: ERROR:  table "persons" does not exist
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> select * from persons
+sheltered-coast-72837::DATABASE-> SELECT * FROM persons
+sheltered-coast-72837::DATABASE-> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE-> select * from persons
+sheltered-coast-72837::DATABASE-> select
+sheltered-coast-72837::DATABASE-> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE-> select * from persons;
+ERROR:  syntax error at or near "SELECT"
+LINE 2: SELECT * FROM persons
+        ^
+sheltered-coast-72837::DATABASE=> select * from persons
+sheltered-coast-72837::DATABASE-> select * from persons;
+ERROR:  syntax error at or near "select"
+LINE 2: select * from persons;
+        ^
+sheltered-coast-72837::DATABASE=> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> select * from persons;
+ personid | lastname | firstname |   address    |   city    
+----------+----------+-----------+--------------+-----------
+     1459 | Sanchez  | Moises    | 809 oceanviw | San MAteo
+     1449 | Lara     | ROb       | 804 oceanviw | San Mateo
+(2 rows)
+
+sheltered-coast-72837::DATABASE=> drop table PERSONS;
+
+ 
+
+CREATE TABLE Persons (
+
+    PersonID int,
+
+    LastName varchar(255),
+
+    FirstName varchar(255),
+
+    Address varchar(255),
+
+    City varchar(255)
+
+);
+
+ 
+
+INSERT INTO Persons (PersonID, LastName, FirstName, address, City)
+
+VALUES (1459, 'Sanchez', 'Moises', '809 oceanviw', 'San MAteo');
+
+ 
+
+INSERT INTO Persons (PersonID, LastName, FirstName, address, City)
+
+VALUES (1449, 'Lara', 'ROb', '804 oceanviw', 'San Mateo');
+
+ DROP TABLE
+sheltered-coast-72837::DATABASE=> 
+sheltered-coast-72837::DATABASE=>  
+sheltered-coast-72837::DATABASE=> 
+sheltered-coast-72837::DATABASE=> CREATE TABLE Persons (
+sheltered-coast-72837::DATABASE(> 
+sheltered-coast-72837::DATABASE(>     PersonID int,
+sheltered-coast-72837::DATABASE(> 
+sheltered-coast-72837::DATABASE(>     LastName varchar(255),
+sheltered-coast-72837::DATABASE(> 
+sheltered-coast-72837::DATABASE(>     FirstName varchar(255),
+sheltered-coast-72837::DATABASE(> 
+sheltered-coast-72837::DATABASE(>     Address varchar(255),
+sheltered-coast-72837::DATABASE(> 
+sheltered-coast-72837::DATABASE(>     City varchar(255)
+sheltered-coast-72837::DATABASE(> 
+sheltered-coast-72837::DATABASE(> );
+CREATE TABLE
+sheltered-coast-72837::DATABASE=> 
+sheltered-coast-72837::DATABASE=>  
+sheltered-coast-72837::DATABASE=> 
+sheltered-coast-72837::DATABASE=> INSERT INTO Persons (PersonID, LastName, FirstName, address, City)
+sheltered-coast-72837::DATABASE-> 
+sheltered-coast-72837::DATABASE-> VALUES (1459, 'Sanchez', 'Moises', '809 oceanviw', 'San MAteo');
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> 
+sheltered-coast-72837::DATABASE=>  
+sheltered-coast-72837::DATABASE=> 
+sheltered-coast-72837::DATABASE=> INSERT INTO Persons (PersonID, LastName, FirstName, address, City)
+sheltered-coast-72837::DATABASE-> 
+sheltered-coast-72837::DATABASE-> VALUES (1449, 'Lara', 'ROb', '804 oceanviw', 'San Mateo');
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> 
+sheltered-coast-72837::DATABASE=> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE=> select * from persons
+sheltered-coast-72837::DATABASE-> \i db/myDb.sql
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+sheltered-coast-72837::DATABASE-> \i db/myDb.sql
+        
+psql:db/myDb.sql:1: SSL SYSCALL error: No route to host
+psql:db/myDb.sql:17: no connection to the server
+psql:db/myDb.sql:17: fatal: connection to server was lost
+Retina:cs313-php user$ 
+Retina:cs313-php user$ 
