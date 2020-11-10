@@ -1,0 +1,29 @@
+After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
+
+0. Don't forget to also upload your javascript file to the assignment dropbox in I-Learn.
+
+1. Briefly describe any pieces of the assignment that are not yet working correctly.
+
+I was able to complete the assignment and I believe everythings has done correctly.
+
+2. Briefly describe the "coolest" thing you learned while completing this assignment.
+
+Working with the server its always fun. Especially because we can test and get the  auto feedback.
+
+3. Describe anything you did to go above and beyond with this assignment.
+
+I had to refresh my memory watching some videos about JSON I needed to complete the assignment and It wasn't easy to recap specially because Im trying to get up to date with the assignments.
+
+4. Please select the category you feel best describes your assignment:
+1 - Some attempt was made
+2 - Developing, but significantly deficient
+3 - Slightly deficient, but still mostly adequate
+4 - Meets requirements
+5 - Shows creativity and excels above and beyond requirements
+
+4
+
+
+5. Provide a brief justification (1-2 sentences) for selecting that category.
+
+I was able to use the portion of JSON and add it into the code. I added the background color as well.
